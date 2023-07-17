@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual ação primordial a ser tomada para proteção de informações digitais, após ter o celular furtado/roubado?"
+type = 1
+options = [ "Recorrer à polícia e deixar que apenas eles resolvam", "Pedir ajuda ao fornecedor do celular, para localização do aparelho", "Solicitar o bloqueio de chip junto à operadora" ]
+correct = "Solicitar o bloqueio de chip junto à operadora"
+cor = ""

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens desafios/img2.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Realize o passo a passo a seguir no seu Whatsapp pessoal ou empresarial:   1º Configurações ->  2º Conta -> 3º Confirmação em Duas Etapas. Caso a Confirmação em Duas Etapas não esteja ativada, volte 03 casas."
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = ""

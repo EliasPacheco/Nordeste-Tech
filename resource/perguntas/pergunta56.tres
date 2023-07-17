@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Possibilidade de ocorrência de um evento que venha a ter efeito no cumprimento dos objetivos, sendo mensurado em termos de impacto e  probabilidade:"
+type = 1
+options = [ "Incidente", "Risco", "Vazamento de Dados" ]
+correct = "Risco"
+cor = ""

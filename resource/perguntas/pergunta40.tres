@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual das medidas abaixo é considerada uma boa prática relacionada a segurança dos dados, a ser tomada pelo colaborador no dia a dia?"
+type = 1
+options = [ "Compartilhar senhas com o supervisor do meu setor quando solicitado", "Aderir à um bloco com todas as senhas utilizadas na empresa", "Utilizar pastas foscas para guardar arquivos contendo dados pessoais" ]
+correct = "Utilizar pastas foscas para guardar arquivos contendo dados pessoais"
+cor = ""

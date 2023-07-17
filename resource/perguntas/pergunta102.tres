@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens perguntas/img2.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Opss! Ocorreu acesso a sites indevidos e/ou maliciosos por um funcionário da organização. Passe a vez!"
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = "amarelo"

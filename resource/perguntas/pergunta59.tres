@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Em certa empresa, houve um incidente de segurança, no qual, ainda não se sabe quem foi o responsável. Qual dos personagens abaixo, NÃO poderá ser responsabilizado? "
+type = 1
+options = [ "A recepcionista que tirou uma selfie, ao lado de um amigo em atendimento", " O auxiliar de RH, que utilizou como rascunho, a folha de atestado médico", "O auxiliar de RH, que levou para casa uma pasta com atestados médicos e não a encontrou mais" ]
+correct = "A recepcionista que tirou uma selfie, ao lado de um amigo em atendimento"
+cor = ""

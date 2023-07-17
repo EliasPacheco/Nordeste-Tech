@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "São Princípios da LGPD, EXCETO:"
+type = 1
+options = [ "Princípio da Boa Fé", "Princípio da não Discriminação", "Princípio da Guarda" ]
+correct = "Princípio da Guarda"
+cor = ""

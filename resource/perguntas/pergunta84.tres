@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Quem será fiscalizado pela Lei Geral de Proteção de Dados:"
+type = 1
+options = [ "Pessoas físicas que tratem dados pessoais", "Pessoas jurídicas que tratem dados pessoais", "Pessoas físicas e jurídicas que tratem dados pessoais" ]
+correct = "Pessoas físicas e jurídicas que tratem dados pessoais"
+cor = ""

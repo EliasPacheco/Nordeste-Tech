@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "No ciclo de vida do tratamento de dados pessoais, a fase que realiza o arquivamento ou armazenamento de dados pessoais independente do meio utilizado:"
+type = 1
+options = [ "Coleta", "Retenção", "Processsamento" ]
+correct = "Retenção"
+cor = ""

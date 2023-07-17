@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Um cliente pediu a modificação dos seus dados pessoais à uma empresa, no entanto, seu pedido não foi atendido e nem justificado. Como o cliente pode reclamar o seu direito ?"
+type = 1
+options = [ "Peticionando uma reclamação junto à ANPD", "Reclamando junto a Ouvidoria da empresa", "Abrindo uma reclamação pelo Procon" ]
+correct = "Peticionando uma reclamação junto à ANPD"
+cor = ""

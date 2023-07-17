@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma empresa realizou uma contratação temporária de alguns prestadores de serviços. Como é possível fazer o controle de acesso dos dados armazenados na empresa?"
+type = 1
+options = [ "Inserir softwares de monitoramento para estes prestadores especificamente", "Fazer o arquivamento em armário que todos tenham acesso", "Disponibilizar uma rede wi-fi temporária" ]
+correct = "Disponibilizar uma rede wi-fi temporária"
+cor = ""

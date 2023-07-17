@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual nome atribuído as informações que não podem ser divulgadas ou compartilhadas, resguardadas por bases legais? "
+type = 1
+options = [ "Informação Pública", "Informação Confidencial", "Informação Sigilosa" ]
+correct = "Informação Sigilosa"
+cor = ""

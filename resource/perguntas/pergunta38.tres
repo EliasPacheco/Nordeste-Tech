@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "É toda operação realizada com dados pessoais, como as que se referem à coleta, classificação, acesso,  processamento, armazenamento, eliminação e entre outros:"
+type = 1
+options = [ "Proteção de Dados", "Manipulação de Dados", "Tratamento de Dados" ]
+correct = "Tratamento de Dados"
+cor = ""

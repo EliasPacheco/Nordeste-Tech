@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "A manifestação livre, informada e  inequívoca sobre o tratamento dos dados pessoais do titular de dados, com uma finalidade determinada, é denominada:"
+type = 1
+options = [ "Assentimento", "Consentimento", "Conciliação" ]
+correct = "Consentimento"
+cor = ""

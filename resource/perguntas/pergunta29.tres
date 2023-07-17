@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "No caso de uma eventual fiscalização pela Autoridade Nacional de Proteção de Dados, qual dos fatores abaixo NÃO será considerado por tal órgão:"
+type = 1
+options = [ "Medidas preventivas ", "Número de Colaboradores da Empresa", "Definição de um Gerente de Dados " ]
+correct = "Definição de um Gerente de Dados "
+cor = ""

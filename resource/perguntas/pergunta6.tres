@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma médica, profissional liberal, armazena os prontuários e os demais dados pessoais de seus pacientes no computador do seu consultório. Como ela pode ser definida dentro da LGPD ?"
+type = 1
+options = [ "Gestor da empresa", "Operador de Dados", "Controlador de Dados" ]
+correct = "Controlador de Dados"
+cor = ""

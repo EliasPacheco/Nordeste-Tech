@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Se o titular de dados tiver o interesse em peticionar, em relação aos seus dados pessoais, contra o Controlador, perante a ANPD, fará isso através de qual Canal de Comunicação?"
+type = 1
+options = [ "www.anpd.gov.br", "www.lgpd.gov.br/anppd", "www.anpd.com.br" ]
+correct = "www.anpd.gov.br"
+cor = ""

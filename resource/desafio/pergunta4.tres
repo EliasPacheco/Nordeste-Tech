@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens desafios/img3.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma das senhas mais utilizadas no mundo é a sequência de dígitos \"123456\". Tente as senhas \"1234\" ou \"123456\" na tela de desbloqueio do seu celular pessoal ou corporativo.  Caso ocorra o desbloqueio, fique uma rodada sem jogar."
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = ""

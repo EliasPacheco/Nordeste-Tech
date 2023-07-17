@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Como é possível assegurar que determinada empresa não tenha seu banco de dados totalmente perdido ou apagado ?"
+type = 1
+options = [ "Realizar no mínimo 03 cópias dos dados e manter uma cópia de backup fora do ambiente local", "Realizar o backup mensal e armazenar estas cópias em vários computadores diferentes", "Realizar apenas o backup em nuvem" ]
+correct = "Realizar no mínimo 03 cópias dos dados e manter uma cópia de backup fora do ambiente local"
+cor = ""

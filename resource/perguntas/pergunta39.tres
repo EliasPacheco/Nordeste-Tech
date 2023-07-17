@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual das opções abaixo NÃO pode ser considerada como boa prática, para a proteção de computadores e/ou dispositivos móveis ?"
+type = 1
+options = [ "Atualização de programas instalados", "Não utilização de autenticação de dois fatores", "Checagem da memória interna" ]
+correct = "Checagem da memória interna"
+cor = ""

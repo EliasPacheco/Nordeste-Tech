@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Um funcionário foi recém contratado  e para garantir que ele não compartilhe informações entre setores ou com pessoas sem vínculo com a organização, é necessário assinar um termo de:"
+type = 1
+options = [ "Confidencialidade", "Integridade", "Disponibilidade" ]
+correct = "Confidencialidade"
+cor = ""

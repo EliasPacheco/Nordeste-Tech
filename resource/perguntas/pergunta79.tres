@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual é a tríade geralmente usada para guiar o desenvolvimento e implementação de uma estrutura para gerenciar segurança da informação dentro de uma organização?"
+type = 1
+options = [ "Disponibilidade, Proteção e Dados", "Proteção, Dados e Integridade", "Confidencialidade, Integridade e Disponibilidade" ]
+correct = "Confidencialidade, Integridade e Disponibilidade"
+cor = ""

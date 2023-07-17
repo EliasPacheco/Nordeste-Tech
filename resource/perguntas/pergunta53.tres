@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Pessoa que tenta acessar sistemas sem autorização, usando técnicas próprias ou não, no intuito de ter acesso a determinado ambiente, para proveito próprio ou de terceiros:"
+type = 1
+options = [ "Perito Computacional Forense", "Hacker", "Analista de Segurança" ]
+correct = "Hacker"
+cor = ""

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual o princípio garante aos titulares, a consulta facilitada e gratuita sobre a forma e a duração do tratamento, bem como, sobre a integralidade de seus dados pessoais:"
+type = 1
+options = [ "Princípio do Livre Acesso", "Princípio do Tratamento", "Princípio da Finalidade" ]
+correct = "Princípio do Livre Acesso"
+cor = ""

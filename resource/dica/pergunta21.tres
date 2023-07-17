@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens dicas/img21.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Caso os seus dados pessoais sejam vazados de alguma forma e você sofra algum dano, os procedimentos a serem seguidos são:Comunicar a ANPD; Registrar um B.O.;Judicializar, se houver, necessidade."
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = ""

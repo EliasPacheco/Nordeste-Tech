@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Ao clicar em um link que está infectado com um Ransomware, ou seja, uma forma de sequestro de dados, qual a maneira mais eficaz  de  evitar preventivamente um dano maior a organização?"
+type = 1
+options = [ "Realizar cópias de segurança/Backup", "Bloquear o sistema", "Não compartilhar logins e senhas de acesso, das estações de trabalho" ]
+correct = "Realizar cópias de segurança/Backup"
+cor = ""

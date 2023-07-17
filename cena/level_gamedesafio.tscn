@@ -1,0 +1,90 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://scripts/level_gamedesafio.gd" type="Script" id=1]
+[ext_resource path="res://cena/level_game.tscn" type="PackedScene" id=2]
+[ext_resource path="res://resource/bd/desafio.tres" type="Resource" id=3]
+[ext_resource path="res://imagens/Botões Game Of Privacy (1)/4.png" type="Texture" id=4]
+[ext_resource path="res://imagens/Botões Game Of Privacy (1)/5.png" type="Texture" id=5]
+[ext_resource path="res://imagens/GoP tela (1)/6.png" type="Texture" id=7]
+
+[node name="level_gamedesafio" instance=ExtResource( 2 )]
+script = ExtResource( 1 )
+desafio = ExtResource( 3 )
+cor_certa = Color( 0.14902, 1, 0, 1 )
+
+[node name="FundoAzul" parent="." index="2"]
+position = Vector2( 402.5, 303 )
+scale = Vector2( 1.00659, 1.0026 )
+texture = ExtResource( 7 )
+
+[node name="PerguntaQuiz" parent="." index="3"]
+position = Vector2( 403, 414 )
+scale = Vector2( 1.32021, 0.576874 )
+
+[node name="question_info" parent="." index="5"]
+margin_left = -423.0
+margin_top = -111.5
+margin_right = 463.0
+margin_bottom = 341.5
+
+[node name="txt_question" parent="question_info" index="0"]
+margin_top = 79.0
+margin_right = 886.0
+margin_bottom = 149.0
+
+[node name="image_holder" parent="question_info" index="1"]
+margin_top = 233.0
+margin_right = 886.0
+margin_bottom = 453.0
+
+[node name="question_image" parent="question_info/image_holder" index="0"]
+margin_left = 26.0
+margin_top = 43.0
+margin_right = -18.0
+margin_bottom = -1.0
+
+[node name="question_holder" parent="." index="6"]
+margin_top = 620.0
+margin_bottom = 857.0
+
+[node name="txt_timer" parent="." index="11"]
+visible = false
+
+[node name="redondo" parent="." index="12"]
+visible = false
+
+[node name="timer" parent="." index="13"]
+autostart = false
+
+[node name="FEZ" parent="." index="20"]
+margin_left = -244.0
+margin_top = 51.0
+margin_right = -162.0
+margin_bottom = 73.0
+
+[node name="CHECK" type="Button" parent="." index="21"]
+margin_left = -290.0
+margin_top = 313.0
+margin_right = 222.0
+margin_bottom = 819.0
+rect_scale = Vector2( 0.5, 0.5 )
+icon = ExtResource( 4 )
+flat = true
+
+[node name="NCHECK" type="Button" parent="." index="22"]
+margin_left = 848.0
+margin_top = 297.0
+margin_right = 1360.0
+margin_bottom = 803.0
+rect_scale = Vector2( 0.5, 0.5 )
+icon = ExtResource( 5 )
+flat = true
+
+[node name="tween" type="Tween" parent="." index="23"]
+
+[connection signal="mouse_entered" from="CHECK" to="." method="_on_CHECK_mouse_entered"]
+[connection signal="mouse_exited" from="CHECK" to="." method="_on_CHECK_mouse_exited"]
+[connection signal="pressed" from="CHECK" to="." method="_on_CHECK_pressed"]
+[connection signal="mouse_entered" from="NCHECK" to="." method="_on_NCHECK_mouse_entered"]
+[connection signal="mouse_exited" from="NCHECK" to="." method="_on_NCHECK_mouse_exited"]
+[connection signal="pressed" from="NCHECK" to="." method="_on_NCHECK_pressed"]

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Quem é considerada a pessoa física ou jurídica nomeada pelo Controlador, para coordenar as ações de adequação interna da empresa, atuando como um canal de comunicação com o titular de dados pessoais e a ANPD?"
+type = 1
+options = [ "Encarregado de Proteção de Dados Pessoais", "Gestor de Proteção de Dados Pessoais", "TPO" ]
+correct = "Encarregado de Proteção de Dados Pessoais"
+cor = ""

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Qual das situações abaixo NÃO serão alvo da Lei Geral de Proteção de Dados - LGPD ?"
+type = 1
+options = [ "O vendedor de pipoca que coleta o nome e endereço para enviar um brinde", "Uma médica, profissional liberal, que armazena os prontuários dos pacientes no seu computador pessoal", "Um centro de pesquisa que coleta os dados pessoais de um família" ]
+correct = "Um centro de pesquisa que coleta os dados pessoais de um família"
+cor = ""

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens desafios/img6.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Realize o passo a passo a seguir no seu WhatsApp pessoal ou empresarial:   1º Configurações ->  2º Conversas -> 3º Backup de conversas. Caso o último Backup tenha sido realizado em um período superior a 07 (sete) dias, volte duas casas."
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = ""

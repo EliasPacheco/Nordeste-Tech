@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma pessoa tem recebido ligações constantes de empresas de telemarketing, sem que as tenha autorizado. Qual canal pode auxiliá-la na solicitação de descadastramento dessa empresa ?"
+type = 1
+options = [ "www.naoliguemais.com.br", "www.anpd.com.gov.br", "www.naomepertube.com.br" ]
+correct = "www.naomepertube.com.br"
+cor = ""

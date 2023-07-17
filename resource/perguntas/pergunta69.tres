@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Determinada empresa, ao solicitar o consentimento do titular de dados, teve a escolha desta base legal, nula. Em qual das situações abaixo, NÃO houve vício de consentimento ? "
+type = 1
+options = [ "O consentimento se deu de forma muito genérica, sem especificações", "O consentimento se deu sem informar a finalidade para o uso dos dados", "O consentimento se deu para formação de perfis de candidatos" ]
+correct = "O consentimento se deu para formação de perfis de candidatos"
+cor = ""

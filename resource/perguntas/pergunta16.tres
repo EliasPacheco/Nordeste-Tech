@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "A partir de agora, a empresa necessitará informar a finalidade de solicitar o CPF do cliente na hora da compra. Qual Lei impõe essa exigência?"
+type = 1
+options = [ "Lei de Acesso à Informação ", "Marco Civil da Internet", "Lei Geral de Proteção de Dados" ]
+correct = "Lei Geral de Proteção de Dados"
+cor = ""

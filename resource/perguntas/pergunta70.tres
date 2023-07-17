@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma empresa coleta o nome completo e telefone, para enviar promoções aos seus clientes. Que hipótese fundamenta a continuidade desse tratamento de dados ? "
+type = 1
+options = [ "Quando necessário para atender ao interesse legítimo do titular de dados", "Se o tratamento for necessário para a proteção ao crédito", "Se houver o consentimento do titular" ]
+correct = "Se houver o consentimento do titular"
+cor = ""

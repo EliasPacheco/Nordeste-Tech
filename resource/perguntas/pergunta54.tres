@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Evento adverso, confirmado ou sob suspeita, relacionado à segurança dos sistemas de computação ou das redes de computadores:"
+type = 1
+options = [ "Anonimização de Dados", "Incidente de Segurança", "Compartilhamento de Dados" ]
+correct = "Incidente de Segurança"
+cor = ""

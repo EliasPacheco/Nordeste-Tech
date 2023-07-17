@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Na ocorrência de um incidente de violação de dados pessoais que gerou risco e dano ao titular, qual o prazo para a organização realizar comunicação à ANPD e aos titulares?"
+type = 1
+options = [ "02 (dois) dias úteis, contados a partir da ciência do evento", "72 (setenta e duas) horas, contadas a partir da ciência do evento", "02 (dois) dias corridos, contados a partir da ciência do evento" ]
+correct = "02 (dois) dias úteis, contados a partir da ciência do evento"
+cor = ""

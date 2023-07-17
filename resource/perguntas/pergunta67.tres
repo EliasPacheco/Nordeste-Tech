@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma boa prática de proteção de Dados é elaborar uma boa senha. Como definir uma senha segura?"
+type = 1
+options = [ "Utilizando palavras em outro idioma", "Utilizando muitos números e letras", "Utilizando letras, números e caracteres especiais" ]
+correct = "Utilizando letras, números e caracteres especiais"
+cor = ""

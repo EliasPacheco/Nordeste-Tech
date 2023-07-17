@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Como pode ser denominada a técnica de substituição de caracteres, em um dado pessoal, pelo símbolo de \"*\" ou \"x\" ?"
+type = 1
+options = [ "Processamento de dados", "Anonimização de dados", "Exclusão de dados" ]
+correct = "Anonimização de dados"
+cor = ""

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do Controlador. "
+type = 1
+options = [ "Controlador de Dados", "Operador de Dados", "Encarregado de Dados" ]
+correct = "Operador de Dados"
+cor = ""

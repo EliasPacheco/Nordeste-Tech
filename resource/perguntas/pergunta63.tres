@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "A Lei Geral de Proteção de Dados regulamenta o tratamento de dados pessoais coletados em quais meios:"
+type = 1
+options = [ "Meio Digital e Físico", "Meio Digital", "Meio Físico" ]
+correct = "Meio Digital e Físico"
+cor = ""

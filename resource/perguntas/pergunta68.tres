@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "A fiscalização e a regulação da LGPD ficarão a cargo de que órgão ?"
+type = 1
+options = [ "Autoridade Nacional de Proteção de Dados (ANPD)", "Ministério da Justiça e Segurança Pública", "Programa Estadual de Proteção e Defesa do Consumidor (PROCON)" ]
+correct = "Autoridade Nacional de Proteção de Dados (ANPD)"
+cor = ""

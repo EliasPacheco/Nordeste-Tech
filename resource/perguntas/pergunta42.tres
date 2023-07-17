@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "De acordo com a LGPD, são agentes de tratamento de dados pessoais:"
+type = 1
+options = [ "ANPD e Encarregado de Dados", "Controlador e Operador", "Ministério Público e Procon" ]
+correct = "Controlador e Operador"
+cor = ""

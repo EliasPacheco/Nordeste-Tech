@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma ação comum entre os criminosos, é o uso de violência contra a vítima, para realização de transferências bancárias. Qual a melhor medida a ser tomada, para minimizar a proporção do prejuízo deste crime ?"
+type = 1
+options = [ "Não cadastrar a biometria digital nos aplicativos de banco", "Reduzir limites de transferências entre contas, DOC, PIX e TED", "Ocultar o saldo da conta bancária" ]
+correct = "Reduzir limites de transferências entre contas, DOC, PIX e TED"
+cor = ""

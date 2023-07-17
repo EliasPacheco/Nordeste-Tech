@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens desafios/img5.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Verifique se você utiliza a própria data de nascimento ou do filho(a) como senhas importantes.Caso afirmativo, você ficará uma rodada sem jogar."
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = ""

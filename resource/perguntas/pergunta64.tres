@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "A LGPD fornece ao Titular dos dados o direito de saber como se dá:"
+type = 1
+options = [ "Tratamento, Coleta e Estagnação", "Tratamento, Coleta e Compartilhamento", "Tratamento, Exposição e Compartilhamento" ]
+correct = "Tratamento, Coleta e Compartilhamento"
+cor = ""

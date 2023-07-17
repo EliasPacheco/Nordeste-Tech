@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://cena/level_game.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/level_gamedica.gd" type="Script" id=2]
+[ext_resource path="res://resource/bd/dica.tres" type="Resource" id=3]
+[ext_resource path="res://imagens/Botões Game Of Privacy (1)/6.png" type="Texture" id=4]
+[ext_resource path="res://imagens/GoP tela (1)/7.png" type="Texture" id=5]
+
+[node name="level_gamedica" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+dica = ExtResource( 3 )
+cor_certa = Color( 0.0313726, 1, 0, 1 )
+
+[node name="FundoAzul" parent="." index="2"]
+position = Vector2( 400.5, 305.5 )
+scale = Vector2( 1.00952, 1.02734 )
+texture = ExtResource( 5 )
+
+[node name="PerguntaQuiz" parent="." index="3"]
+position = Vector2( 253.588, 423.5 )
+scale = Vector2( 1.16275, 0.514612 )
+
+[node name="question_info" parent="." index="5"]
+margin_left = -403.0
+margin_top = -48.5
+margin_right = 451.0
+margin_bottom = 290.5
+
+[node name="txt_question" parent="question_info" index="0"]
+margin_top = 22.0
+margin_right = 854.0
+margin_bottom = 92.0
+
+[node name="image_holder" parent="question_info" index="1"]
+margin_top = 119.0
+margin_right = 854.0
+margin_bottom = 339.0
+
+[node name="question_image" parent="question_info/image_holder" index="0"]
+margin_left = 30.0
+margin_top = 51.0
+margin_right = -14.0
+margin_bottom = 7.0
+
+[node name="question_holder" parent="." index="6"]
+margin_top = 620.0
+margin_bottom = 857.0
+
+[node name="txt_timer" parent="." index="11"]
+visible = false
+
+[node name="redondo" parent="." index="12"]
+visible = false
+
+[node name="timer" parent="." index="13"]
+autostart = false
+
+[node name="FEZ" parent="." index="20"]
+margin_left = -252.0
+margin_top = 44.0
+margin_right = -169.0
+margin_bottom = 68.0
+
+[node name="legal" type="Button" parent="." index="21"]
+margin_left = 907.0
+margin_top = 341.0
+margin_right = 1419.0
+margin_bottom = 847.0
+rect_scale = Vector2( 0.3, 0.3 )
+icon = ExtResource( 4 )
+flat = true
+
+[node name="tween" type="Tween" parent="." index="22"]
+
+[connection signal="mouse_entered" from="legal" to="." method="_on_legal_mouse_entered"]
+[connection signal="mouse_exited" from="legal" to="." method="_on_legal_mouse_exited"]
+[connection signal="pressed" from="legal" to="." method="_on_legal_pressed"]

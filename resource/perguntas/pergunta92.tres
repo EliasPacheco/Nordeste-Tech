@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+[ext_resource path="res://imagens/imagens perguntas/img11.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Opss! Houve vazamento de dados pessoais da sua empresa. Retorne ao início do jogo!"
+type = 1
+question_image = ExtResource( 2 )
+options = [ "", "", "" ]
+correct = ""
+cor = "vermelho"

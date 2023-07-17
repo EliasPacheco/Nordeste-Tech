@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro:"
+type = 1
+options = [ "Computação em Nuvem", " Uso Compartilhado de Dados", " Transferência Internacional de Dados" ]
+correct = " Transferência Internacional de Dados"
+cor = ""

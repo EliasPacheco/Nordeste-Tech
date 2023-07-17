@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Sobre os Direitos dos Titulares, na LGPD, qual NÃO é correto afirmar:"
+type = 1
+options = [ "Direito à inversão do bônus da prova quanto ao consentimento", "Direito de requerer a nulidade de autorizações genéricas para o tratamento de dados pessoais", "Direito de não ser discriminado de forma ilícita ou abusiva" ]
+correct = "Direito à inversão do bônus da prova quanto ao consentimento"
+cor = ""

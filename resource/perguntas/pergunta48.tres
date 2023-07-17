@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "De que forma o TI, ou o profissional responsável, pode garantir que as informações sejam acessadas somente pelas pessoas necessárias a realização do tratamento dos dados pessoais?"
+type = 1
+options = [ "Realizando cópias de segurança das informações", "Criando controles de acessos", "Mantendo os espaços de trabalho sempre trancados" ]
+correct = "Criando controles de acessos"
+cor = ""

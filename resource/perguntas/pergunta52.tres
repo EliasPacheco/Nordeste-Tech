@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Atividades coordenadas para direcionar e controlar uma organização no que se refere a riscos:"
+type = 1
+options = [ "Gestão de Privacidade", "Gestão de Proteção de Dados", "Gestão de Riscos" ]
+correct = "Gestão de Riscos"
+cor = ""

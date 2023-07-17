@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "O titular de dados entregou ao Recursos Humanos da Empresa um atestado médico. Quais tipos de dados se refere quando se trata de dados de saúde?"
+type = 1
+options = [ "Dados Pessoais", "Dados Anonimizados", "Dados Pessoais Sensíveis" ]
+correct = "Dados Pessoais Sensíveis"
+cor = ""

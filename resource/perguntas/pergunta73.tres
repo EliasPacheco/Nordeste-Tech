@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/resource/res_question.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+question_info = "Uma empresa analisa o histórico de inadimplência dos clientes/titulares que solicitam um cartão de crédito no balcão. Essa pesquisa está baseada em que hipótese legal trazida pela LGPD ?"
+type = 1
+options = [ "Obrigação Legal ou Regulatória", "Consentimento do Titular", "Proteção ao Crédito" ]
+correct = "Proteção ao Crédito"
+cor = ""
