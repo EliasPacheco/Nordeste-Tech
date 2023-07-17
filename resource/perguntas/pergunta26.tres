@@ -6,6 +6,6 @@
 script = ExtResource( 1 )
 question_info = "Qual das situações abaixo NÃO serão alvo da Lei Geral de Proteção de Dados - LGPD ?"
 type = 1
-options = [ "O vendedor de pipoca que coleta o nome e endereço para enviar um brinde", "Uma médica, profissional liberal, que armazena os prontuários dos pacientes no seu computador pessoal", "Um centro de pesquisa que coleta os dados pessoais de um família" ]
-correct = "Um centro de pesquisa que coleta os dados pessoais de um família"
+options = [ "O vendedor de pipoca que coleta o nome e endereço para enviar um brinde", "Uma médica, profissional liberal, que armazena os prontuários dos pacientes no seu computador pessoal", "Um centro de pesquisa que coleta os dados pessoais de uma família" ]
+correct = "Um centro de pesquisa que coleta os dados pessoais de uma família"
 cor = ""

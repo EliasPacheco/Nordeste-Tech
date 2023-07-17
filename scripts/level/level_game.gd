@@ -132,7 +132,7 @@ func buttons_answer(button):
 		$audio_errado.play()
 		
 	quiz_shuffle.remove(index)
-	yield(get_tree().create_timer(1.3), "timeout")
+	yield(get_tree().create_timer(3), "timeout")
 	go_to_initial_scene()
 
 func _next_question():

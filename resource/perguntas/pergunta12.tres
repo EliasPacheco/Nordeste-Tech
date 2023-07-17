@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource( 1 )
-question_info = "Pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do Controlador. "
+question_info = "Pessoa física  ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do Controlador. "
 type = 1
 options = [ "Controlador de Dados", "Operador de Dados", "Encarregado de Dados" ]
 correct = "Operador de Dados"

@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource( 1 )
-question_info = "Seja cuidadoso ao acessar seu webmail:          digite a URL diretamente no navegador.tenha cuidado ao clicar em links recebidos por meio de mensagens eletrônicas."
+question_info = "Seja cuidadoso ao acessar seu webmail: 1º Digite a URL diretamente no navegador. 2º Tenha cuidado ao clicar em links recebidos por meio de mensagens eletrônicas."
 type = 1
 question_image = ExtResource( 2 )
 options = [ "", "", "" ]

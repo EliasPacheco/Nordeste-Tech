@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource( 1 )
-question_info = "Informe se você já participou de trends em que precisou compartilhar fotos ou informações pessoais na internet em aplicativos de I.A. (exemplos: desafios do Instagram, jogos de Facebook e/ou criação de avatar.).Caso afirmativo, volte duas casas."
+question_info = "Informe se você já participou de trends em que precisou compartilhar fotos ou informações pessoais na internet em aplicativos de I.A. (exemplos: desafios do Instagram, jogos de Facebook e/ou criação de avatar). Caso afirmativo, volte duas casas."
 type = 1
 question_image = ExtResource( 2 )
 options = [ "", "", "" ]

@@ -150,18 +150,28 @@ func _on_FEZ_pressed():
 	get_tree().change_scene("res://cena/Inicio.tscn")
 
 
-func _on_NFEZ_pressed():
-	quiz_shuffle.remove(index)
-	get_tree().change_scene("res://cena/Inicio.tscn")
-
-
-
 func _on_CHECK_pressed():
+	$FundoAzul.hide()
+	$question_holder.hide()
+	$question_info.hide()
+	$CHECK.hide()
+	$NCHECK.hide()
+	$Desafioc.show()
+	$Desafioi.hide()
+	yield(get_tree().create_timer(4), "timeout")
 	quiz_shuffle.remove(index)
 	get_tree().change_scene("res://cena/Inicio.tscn")
 
 
 func _on_NCHECK_pressed():
+	$FundoAzul.hide()
+	$question_holder.hide()
+	$question_info.hide()
+	$CHECK.hide()
+	$NCHECK.hide()
+	$Desafioc.hide()
+	$Desafioi.show()
+	yield(get_tree().create_timer(4), "timeout")
 	quiz_shuffle.remove(index)
 	get_tree().change_scene("res://cena/Inicio.tscn")
 

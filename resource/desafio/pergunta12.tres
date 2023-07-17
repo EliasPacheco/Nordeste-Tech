@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource( 1 )
-question_info = "Uma empresa X compartilhou os seus dados pessoais, e agora você precisa tomar algumas providências, descreva quais seriam os procedimentos que deveriam ser seguidos.Agora, compartilhem entre si os procedimentos."
+question_info = "Uma empresa X compartilhou os seus dados pessoais, e agora você precisa tomar algumas providências, descreva quais seriam os procedimentos que deveriam ser seguidos. Agora, compartilhem entre si os procedimentos."
 type = 1
 question_image = ExtResource( 2 )
 options = [ "", "", "" ]

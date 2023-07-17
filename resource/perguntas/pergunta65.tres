@@ -6,6 +6,6 @@
 script = ExtResource( 1 )
 question_info = "É o meio para proteção de dados em caso de perda de equipamentos e ação de códigos maliciosos:"
 type = 1
-options = [ "Cópia de SegurançaCópia de Segurança", "Formatação", "Troca de componentes" ]
+options = [ "Cópia de Segurança", "Formatação", "Troca de componentes" ]
 correct = "Cópia de Segurança"
 cor = ""

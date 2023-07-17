@@ -5,7 +5,7 @@
 
 [resource]
 script = ExtResource( 1 )
-question_info = "Verifique se você utiliza a própria data de nascimento ou do filho(a) como senhas importantes.Caso afirmativo, você ficará uma rodada sem jogar."
+question_info = "Verifique se você utiliza a própria data de nascimento ou do filho (a) /pais como senhas importantes. Caso afirmativo, você ficará uma rodada sem jogar."
 type = 1
 question_image = ExtResource( 2 )
 options = [ "", "", "" ]
