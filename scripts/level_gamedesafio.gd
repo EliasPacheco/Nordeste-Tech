@@ -25,7 +25,6 @@ onready var question_audio := $question_info/image_holder/question_audio
 
 func _ready():
 	Global.gameState = true
-	$FEZ.focus_mode = Control.FOCUS_NONE
 	$CHECK.focus_mode = Control.FOCUS_NONE
 	$NCHECK.focus_mode = Control.FOCUS_NONE
 	$men.focus_mode = Control.FOCUS_NONE

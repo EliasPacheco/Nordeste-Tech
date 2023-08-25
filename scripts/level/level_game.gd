@@ -26,7 +26,6 @@ onready var question_audio := $question_info/image_holder/question_audio
 func _ready():
 	$men.hide()
 	$men.focus_mode = Control.FOCUS_NONE
-	$FEZ.focus_mode = Control.FOCUS_NONE
 	Global.gameState = true
 	for _button in $question_holder.get_children():
 		buttons.append(_button)
@@ -55,7 +54,6 @@ func load_quiz() -> void:
 		#$PerguntaQuiz.position = Vector2(403, 373.5)
 		#$PerguntaQuiz.scale = Vector2(0.792, 2.103)
 		$men.show()
-		$FEZ.hide()
 		$redondo.hide()
 		$txt_timer.hide()
 		
@@ -73,7 +71,6 @@ func load_quiz() -> void:
 		#$PerguntaQuiz.position = Vector2(403, 373.5)
 		#$PerguntaQuiz.scale = Vector2(0.792, 2.103)
 		$men.show()
-		$FEZ.hide()
 		$redondo.hide()
 		$txt_timer.hide()
 		
@@ -181,11 +178,6 @@ func _on_btn_menu_pressed():
 	Global.pontos = 0
 	Global.recorde = 0
 	get_tree().change_scene("res://cena/Menu.tscn")
-
-
-func _on_FEZ_pressed():
-	quiz_shuffle.remove(index)
-	get_tree().change_scene("res://cena/GameOver.tscn")
 
 
 func _on_men_pressed():

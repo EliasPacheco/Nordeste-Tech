@@ -24,7 +24,6 @@ onready var question_video := $question_info/image_holder/question_video
 onready var question_audio := $question_info/image_holder/question_audio
 
 func _ready():
-	$FEZ.focus_mode = Control.FOCUS_NONE
 	$legal.focus_mode = Control.FOCUS_NONE
 	$men.focus_mode = Control.FOCUS_NONE
 	Global.gameState = true

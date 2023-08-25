@@ -97,7 +97,8 @@ position = Vector2( 402, 303 )
 texture = ExtResource( 13 )
 
 [node name="FundoAzul" type="Sprite" parent="."]
-position = Vector2( 402, 303 )
+position = Vector2( 402, 304 )
+scale = Vector2( 1, 1.0026 )
 texture = ExtResource( 6 )
 
 [node name="PerguntaQuiz" type="Sprite" parent="."]
@@ -395,13 +396,6 @@ stream = ExtResource( 11 )
 [node name="alertaa" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 17 )
 
-[node name="FEZ" type="Button" parent="."]
-margin_left = -247.0
-margin_top = 48.0
-margin_right = -163.0
-margin_bottom = 77.0
-flat = true
-
 [node name="men" type="Button" parent="."]
 margin_left = -217.0
 margin_top = -4.0
@@ -412,5 +406,4 @@ flat = true
 [connection signal="pressed" from="game_over/btn_menu" to="." method="_on_btn_menu_pressed"]
 [connection signal="ready" from="timer" to="." method="_on_timer_ready"]
 [connection signal="timeout" from="timer" to="." method="_on_timer_timeout"]
-[connection signal="pressed" from="FEZ" to="." method="_on_FEZ_pressed"]
 [connection signal="pressed" from="men" to="." method="_on_men_pressed"]
